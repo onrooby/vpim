@@ -26,9 +26,9 @@ This is a pure-ruby library for decoding and encoding vCard and iCalendar data
     'CHANGES',
   ].to_a
 
-  s.files             = candidates
+  s.files             = Dir["{lib}/**/*.rb"] + ["COPYING", "README", "CHANGES"]
   s.test_files        = Dir.glob("test/test_*.rb")
-  s.executables       = FileList["bin/*"].map{|path| File.basename(path)}
+  s.executables       = Dir['bin/*']
 
   s.require_path      = "lib"
 end
