@@ -1,6 +1,3 @@
-require 'rubygems'
-require 'pp'
-require 'rake'
 require 'vpim/version'
 
 Gem::Specification.new do |s|
