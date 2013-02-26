@@ -1,3 +1,5 @@
+# encoding: ascii
+
 =begin
   Copyright (C) 2008 Sam Roberts
 
